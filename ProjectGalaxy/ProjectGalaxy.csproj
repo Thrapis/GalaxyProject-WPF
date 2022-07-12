@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="UI\Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Han.Wpf.Core.ViewportControl" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
